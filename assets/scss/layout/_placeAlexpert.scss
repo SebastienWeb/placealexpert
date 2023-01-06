@@ -43,7 +43,7 @@ main {
     padding: 0 1rem 2rem !important;
     button {
       border: 0 !important;
-      background-color: $primary !important;
+      background-color: $primary-color !important;
       color: white !important;
     }
     .btnExpertTop {
@@ -58,7 +58,7 @@ main {
       }
     }
     h1 {
-      color: $secondary !important;
+      color: $secondary-color !important;
       padding: 1.2rem 0 0 !important;
       font-size: 2rem !important;
       @include laptop {
