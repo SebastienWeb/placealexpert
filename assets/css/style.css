@@ -186,15 +186,16 @@ table {
   text-align: center !important;
   padding: 0 1rem 2rem !important;
 }
-@media screen and (min-width: 1200px) {
-  .containerPlaceExpert .contentPodcastExpert {
-    width: 100% !important;
-  }
-}
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .contentPodcastExpert {
     text-align: left !important;
     padding-left: 3rem !important;
+    width: 60% !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .containerPlaceExpert .contentPodcastExpert {
+    width: 100% !important;
   }
 }
 .containerPlaceExpert .contentPodcastExpert button {
