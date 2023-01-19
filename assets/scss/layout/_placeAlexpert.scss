@@ -20,10 +20,20 @@
     align-items: center !important;
     padding: 0 32px !important;
   }
+  // .beforeCircle {
+  //   position: absolute !important;
+  //   width: 500px !important;
+  //   height: 500px !important;
+  //   background-color: $primary-color !important;
+  //   border-radius: 50% !important;
+  //   top: 86px !important;
+  //   left: 160px !important;
+  // }
   .imgExpertTop {
-    display: block !important;
     width: 70% !important;
     margin: 400px auto 32px !important;
+    position: relative !important;
+    display: block !important;
     @include mobileL {
       width: 50% !important;
     }

@@ -158,9 +158,10 @@ table {
   }
 }
 .containerPlaceExpert .imgExpertTop {
-  display: block !important;
   width: 70% !important;
   margin: 400px auto 32px !important;
+  position: relative !important;
+  display: block !important;
 }
 @media screen and (min-width: 576px) {
   .containerPlaceExpert .imgExpertTop {
