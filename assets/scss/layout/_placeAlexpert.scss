@@ -18,12 +18,12 @@
   @include laptop {
     display: flex !important;
     align-items: center !important;
-    padding: 0 2rem !important;
+    padding: 0 32px !important;
   }
   .imgExpertTop {
     display: block !important;
     width: 70% !important;
-    margin: 4rem auto 2rem !important;
+    margin: 400px auto 32px !important;
     @include mobileL {
       width: 50% !important;
     }
@@ -41,13 +41,13 @@
     text-align: center !important;
     @include laptop {
       text-align: left !important;
-      padding-left: 3rem !important;
+      padding-left: 48px !important;
       width: 60% !important;
     }
     @include desktop {
       width: 100% !important;
     }
-    padding: 0 1rem 2rem !important;
+    padding: 0 16px 32px !important;
     button {
       border: 0 !important;
       background-color: $primary-color !important;
@@ -56,46 +56,55 @@
     .btnExpertTop {
       height: 32.1px !important;
       width: 171.72px !important;
-      border-radius: 1.003rem !important;
+      border-radius: 16.048px !important;
       font-family: "Poppins", sans-serif !important;
       font-weight: 600 !important;
-      font-size: 1.167rem !important;
+      font-size: 18.672px !important;
       @include laptop {
-        font-size: 0.8rem !important;
+        font-size: 12.8px !important;
       }
     }
     h1 {
       color: $secondary-color !important;
-      padding: 1.2rem 0 0 !important;
-      font-size: 2rem !important;
+      padding: 19.2px 0 0 !important;
+      font-size: 32px !important;
       @include laptop {
-        font-size: 3rem !important;
+        font-size: 48px !important;
       }
       font-family: "Catamaran", sans-serif !important;
       font-weight: 900 !important;
     }
     p {
-      font-size: 1.25rem !important;
+      font-size: 20px !important;
       @include laptop {
-        font-size: 1.1rem !important;
+        font-size: 17.6px !important;
       }
-      line-height: 1.875rem !important;
-      padding: 2.25rem 0 1.5rem !important;
+      line-height: 30px !important;
+      padding: 36px 0 24px !important;
       font-family: "Roboto", sans-serif !important;
       font-weight: 500 !important;
     }
   }
   .btnExpertPlay {
     cursor: pointer;
-    width: 18rem !important;
-    height: 3.75rem !important;
+    width: 288px !important;
+    height: 60px !important;
+    max-height: 60px !important;
     border-radius: 4px !important;
     font-family: "Popins", sans-serif !important;
     font-weight: 600 !important;
     transition: width 300ms ease-in-out, height 300ms ease-in-out !important;
     &:hover {
-      width: 19rem !important;
-      height: 4rem !important;
+      width: 288.5px !important;
+      max-width: 288.5px !important;
+      height: 64px !important;
+    }
+    @include laptop {
+      &:hover {
+        width: 304px !important;
+        max-width: 304px !important;
+        height: 64px !important;
+      }
     }
     .containerBtnExpert {
       display: flex !important;
@@ -105,9 +114,9 @@
         display: block !important;
       }
       .rightExpert {
-        font-size: 1rem !important;
+        font-size: 16px !important;
         @include laptop {
-          font-size: 0.9rem !important;
+          font-size: 14.4px !important;
         }
       }
     }

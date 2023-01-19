@@ -154,13 +154,13 @@ table {
   .containerPlaceExpert {
     display: flex !important;
     align-items: center !important;
-    padding: 0 2rem !important;
+    padding: 0 32px !important;
   }
 }
 .containerPlaceExpert .imgExpertTop {
   display: block !important;
   width: 70% !important;
-  margin: 4rem auto 2rem !important;
+  margin: 400px auto 32px !important;
 }
 @media screen and (min-width: 576px) {
   .containerPlaceExpert .imgExpertTop {
@@ -184,12 +184,12 @@ table {
 }
 .containerPlaceExpert .contentPodcastExpert {
   text-align: center !important;
-  padding: 0 1rem 2rem !important;
+  padding: 0 16px 32px !important;
 }
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .contentPodcastExpert {
     text-align: left !important;
-    padding-left: 3rem !important;
+    padding-left: 48px !important;
     width: 60% !important;
   }
 }
@@ -206,52 +206,61 @@ table {
 .containerPlaceExpert .contentPodcastExpert .btnExpertTop {
   height: 32.1px !important;
   width: 171.72px !important;
-  border-radius: 1.003rem !important;
+  border-radius: 16.048px !important;
   font-family: "Poppins", sans-serif !important;
   font-weight: 600 !important;
-  font-size: 1.167rem !important;
+  font-size: 18.672px !important;
 }
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .contentPodcastExpert .btnExpertTop {
-    font-size: 0.8rem !important;
+    font-size: 12.8px !important;
   }
 }
 .containerPlaceExpert .contentPodcastExpert h1 {
   color: #241e4d !important;
-  padding: 1.2rem 0 0 !important;
-  font-size: 2rem !important;
+  padding: 19.2px 0 0 !important;
+  font-size: 32px !important;
   font-family: "Catamaran", sans-serif !important;
   font-weight: 900 !important;
 }
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .contentPodcastExpert h1 {
-    font-size: 3rem !important;
+    font-size: 48px !important;
   }
 }
 .containerPlaceExpert .contentPodcastExpert p {
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  padding: 2.25rem 0 1.5rem;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  padding: 36px 0 24px !important;
   font-family: "Roboto", sans-serif !important;
   font-weight: 500 !important;
 }
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .contentPodcastExpert p {
-    font-size: 1.1rem !important;
+    font-size: 17.6px !important;
   }
 }
 .containerPlaceExpert .btnExpertPlay {
   cursor: pointer;
-  width: 18rem !important;
-  height: 3.75rem !important;
+  width: 288px !important;
+  height: 60px !important;
+  max-height: 60px !important;
   border-radius: 4px !important;
   font-family: "Popins", sans-serif !important;
   font-weight: 600 !important;
   transition: width 300ms ease-in-out, height 300ms ease-in-out !important;
 }
 .containerPlaceExpert .btnExpertPlay:hover {
-  width: 19rem !important;
-  height: 4rem !important;
+  width: 288.5px !important;
+  max-width: 288.5px !important;
+  height: 64px !important;
+}
+@media screen and (min-width: 1024px) {
+  .containerPlaceExpert .btnExpertPlay:hover {
+    width: 304px !important;
+    max-width: 304px !important;
+    height: 64px !important;
+  }
 }
 .containerPlaceExpert .btnExpertPlay .containerBtnExpert {
   display: flex !important;
@@ -262,11 +271,11 @@ table {
   display: block !important;
 }
 .containerPlaceExpert .btnExpertPlay .containerBtnExpert .rightExpert {
-  font-size: 1rem !important;
+  font-size: 16px !important;
 }
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .btnExpertPlay .containerBtnExpert .rightExpert {
-    font-size: 0.9rem !important;
+    font-size: 14.4px !important;
   }
 }
 
