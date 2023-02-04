@@ -150,6 +150,9 @@ table {
   }
 }
 
+.containerPlaceExpert {
+  font-size: 16px !important;
+}
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert {
     display: flex !important;
@@ -200,17 +203,40 @@ table {
   }
 }
 .containerPlaceExpert .imgPlaceExpert::after {
-  content: url("../../images/photodeprofil.png") !important;
-  display: block !important;
+  content: url(../images/music.png) !important;
   position: absolute !important;
-  top: 0 !important;
-  width: 100%;
-  height: auto;
+  top: -60px !important;
+  left: 174px !important;
+  background-color: #bcd46d !important;
+  border-radius: 50% !important;
+  box-shadow: #bcd46d 0px 1px 4px, #bcd46d 0px 0px 0px 3px;
+  border: 4px solid white !important;
+  width: 100px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100px !important;
+}
+@media screen and (min-width: 425px) {
+  .containerPlaceExpert .imgPlaceExpert::after {
+    top: -40px !important;
+    left: 240px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .containerPlaceExpert .imgPlaceExpert::after {
+    left: 420px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .containerPlaceExpert .imgPlaceExpert::after {
+    left: 250px !important;
+  }
 }
 .containerPlaceExpert .imgPlaceExpert .imgExpertTop {
   display: block;
   width: 70% !important;
-  margin: 500px auto 32px !important;
+  margin: 400px auto 32px !important;
 }
 @media screen and (min-width: 576px) {
   .containerPlaceExpert .imgPlaceExpert .imgExpertTop {
@@ -219,12 +245,13 @@ table {
 }
 @media screen and (min-width: 768px) {
   .containerPlaceExpert .imgPlaceExpert .imgExpertTop {
-    width: 100% !important;
+    width: 40% !important;
   }
 }
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .imgPlaceExpert .imgExpertTop {
     margin: 0 !important;
+    width: 100% !important;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -233,6 +260,7 @@ table {
   }
 }
 .containerPlaceExpert .contentPodcastExpert {
+  font-size: 1em !important;
   text-align: center !important;
   padding: 0 16px 32px !important;
 }
@@ -256,6 +284,7 @@ table {
 .containerPlaceExpert .contentPodcastExpert .btnExpertTop {
   height: 32.1px !important;
   width: 171.72px !important;
+  font-size: 1em !important;
   border-radius: 16.048px !important;
   font-family: "Poppins", sans-serif !important;
   font-weight: 600 !important;
@@ -269,17 +298,17 @@ table {
 .containerPlaceExpert .contentPodcastExpert h1 {
   color: #241e4d !important;
   padding: 19.2px 0 0 !important;
-  font-size: 32px !important;
+  font-size: 2em !important;
   font-family: "Catamaran", sans-serif !important;
   font-weight: 900 !important;
 }
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .contentPodcastExpert h1 {
-    font-size: 48px !important;
+    font-size: 3em !important;
   }
 }
 .containerPlaceExpert .contentPodcastExpert p {
-  font-size: 20px !important;
+  font-size: 1.25em !important;
   line-height: 30px !important;
   padding: 36px 0 24px !important;
   font-family: "Roboto", sans-serif !important;
@@ -287,7 +316,7 @@ table {
 }
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .contentPodcastExpert p {
-    font-size: 17.6px !important;
+    font-size: 1.1em !important;
   }
 }
 .containerPlaceExpert .btnExpertPlay {
@@ -298,6 +327,7 @@ table {
   border-radius: 4px !important;
   font-family: "Popins", sans-serif !important;
   font-weight: 600 !important;
+  font-size: 1em !important;
   transition: width 300ms ease-in-out, height 300ms ease-in-out !important;
 }
 .containerPlaceExpert .btnExpertPlay:hover {
@@ -321,11 +351,11 @@ table {
   display: block !important;
 }
 .containerPlaceExpert .btnExpertPlay .containerBtnExpert .rightExpert {
-  font-size: 16px !important;
+  font-size: 1em !important;
 }
 @media screen and (min-width: 1024px) {
   .containerPlaceExpert .btnExpertPlay .containerBtnExpert .rightExpert {
-    font-size: 14.4px !important;
+    font-size: 0.9em !important;
   }
 }
 

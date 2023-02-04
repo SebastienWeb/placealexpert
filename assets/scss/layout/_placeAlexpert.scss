@@ -15,20 +15,12 @@
   }
 }
 .containerPlaceExpert {
+  font-size: 16px !important;
   @include laptop {
     display: flex !important;
     align-items: center !important;
     padding: 0 32px !important;
   }
-  // .beforeCircle {
-  //   position: absolute !important;
-  //   width: 500px !important;
-  //   height: 500px !important;
-  //   background-color: $primary-color !important;
-  //   border-radius: 50% !important;
-  //   top: 86px !important;
-  //   left: 160px !important;
-  // }
   .imgPlaceExpert {
     position: relative !important;
     @include desktop {
@@ -63,25 +55,43 @@
       }
     }
     &::after {
-      content: url("../../images/photodeprofil.png") !important;
-      display: block !important;
+      content: url(../images/music.png) !important;
       position: absolute !important;
-      top: 0 !important;
-      width: 100%;
-      height: auto;
+      top: -60px !important;
+      left: 174px !important;
+      background-color: $primary-color !important;
+      border-radius: 50% !important;
+      box-shadow: $primary-color 0px 1px 4px, $primary-color 0px 0px 0px 3px;
+      border: 4px solid white !important;
+      width: 100px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      height: 100px !important;
+      @include mobile {
+        top: -40px !important;
+        left: 240px !important;
+      }
+      @include tablet {
+        left: 420px !important;
+      }
+      @include laptop {
+        left: 250px !important;
+      }
     }
     .imgExpertTop {
       display: block;
       width: 70% !important;
-      margin: 500px auto 32px !important;
+      margin: 400px auto 32px !important;
       @include mobileL {
         width: 50% !important;
       }
       @include tablet {
-        width: 100% !important;
+        width: 40% !important;
       }
       @include laptop {
         margin: 0 !important;
+        width: 100% !important;
       }
       @include desktop {
         width: 100% !important;
@@ -89,6 +99,7 @@
     }
   }
   .contentPodcastExpert {
+    font-size: 1em !important;
     text-align: center !important;
     @include laptop {
       text-align: left !important;
@@ -107,6 +118,7 @@
     .btnExpertTop {
       height: 32.1px !important;
       width: 171.72px !important;
+      font-size: 1em !important;
       border-radius: 16.048px !important;
       font-family: "Poppins", sans-serif !important;
       font-weight: 600 !important;
@@ -118,17 +130,17 @@
     h1 {
       color: $secondary-color !important;
       padding: 19.2px 0 0 !important;
-      font-size: 32px !important;
+      font-size: 2em !important;
       @include laptop {
-        font-size: 48px !important;
+        font-size: 3em !important;
       }
       font-family: "Catamaran", sans-serif !important;
       font-weight: 900 !important;
     }
     p {
-      font-size: 20px !important;
+      font-size: 1.25em !important;
       @include laptop {
-        font-size: 17.6px !important;
+        font-size: 1.1em !important;
       }
       line-height: 30px !important;
       padding: 36px 0 24px !important;
@@ -144,6 +156,7 @@
     border-radius: 4px !important;
     font-family: "Popins", sans-serif !important;
     font-weight: 600 !important;
+    font-size: 1em !important;
     transition: width 300ms ease-in-out, height 300ms ease-in-out !important;
     &:hover {
       width: 288.5px !important;
@@ -165,9 +178,9 @@
         display: block !important;
       }
       .rightExpert {
-        font-size: 16px !important;
+        font-size: 1em !important;
         @include laptop {
-          font-size: 14.4px !important;
+          font-size: 0.9em !important;
         }
       }
     }
